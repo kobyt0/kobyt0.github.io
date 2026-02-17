@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Curriculo - Godoy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <header class="card header">
+    <div>
+      <h1>Darrel Godoy Quintero</h1>
+      <h3>Estudiante de programación</h3>
+      <p>
+        Graduado de Secundaria buscando mi primera experiencia laboral. Soy competente en el uso de Internet y con mente inquieta por el
+mundo de las nuevas tecnologías. Estoy buscando un empleo que haga uso de mis habilidades con el inglés y la tecnología.
+      </p>
+    </div>
+    <img src="img/profile.jpg" alt="Foto de perfil">
+  </header>
+
+  <main class="grid">
+
+    <section class="card">
+      <h2>Habilidades</h2>
+
+      <div id="skills-list" class="skills">
+        <div class="skill">HTML <span class="remove">✕</span></div>
+        <div class="skill">CSS <span class="remove">✕</span></div>
+        <div class="skill">Java <span class="remove">✕</span></div>
+        <div class="skill">Ingles <span class="remove">✕</span></div>
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="skill-input" placeholder="Nueva habilidad">
+        <button id="add-skill">Agregar</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Experiencia Laboral</h2>
+
+      <div id="jobs-list">
+        <div class="job">
+          <span>2024 - 2025 | Enseñar clases de inglés</span>
+          <span class="remove">✕</span>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="job-start" placeholder="Inicio (2026)">
+        <input type="text" id="job-end" placeholder="Fin (2028)">
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="job-role" placeholder="Cargo / Empleo">
+        <button id="add-job">Agregar</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Educación</h2>
+
+      <div id="edu-list">
+        <div class="edu-item">
+          <span>2022 - 2022</span>
+          <div>
+            <h4>Colegio Gimnasio Campestre</h4>
+            <p>Bachillerato</p>
+          </div>
+          <span class="remove">✕</span>
+        </div>
+
+        <div class="edu-item">
+          <span>2023 - 2023</span>
+          <div>
+            <h4>Lesaru Academy</h4>
+            <p>Ingles B2</p>
+          </div>
+          <span class="remove">✕</span>
+        </div>
+
+        <div class="edu-item">
+          <span>2024 - Actualmente</span>
+          <div>
+            <h4>Universidad Santiago de Cali</h4>
+            <p>Tecnología en sistemas de información de software </p>
+          </div>
+          <span class="remove">✕</span>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="edu-start" placeholder="Inicio">
+        <input type="text" id="edu-end" placeholder="Fin">
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="edu-place" placeholder="Institución">
+        <input type="text" id="edu-title" placeholder="Carrera / Programa">
+      </div>
+
+      <div class="input-group">
+        <button id="add-edu">Agregar educación</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="card footer">
+    <p>📞 305-339-5174</p>
+    <p>✉️ tugodoydd@gmail.com</p>
+    <p>🌐 https://kobyt0.github.io</p>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
