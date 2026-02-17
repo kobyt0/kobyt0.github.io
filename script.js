@@ -33,7 +33,7 @@ addSkillBtn.addEventListener("click", () => {
 
   const skill = document.createElement("div");
   skill.classList.add("skill");
-  skill.innerHTML = '${text} <span class="remove">✕</span>';
+  skill.innerHTML = `${text} <span class="remove">✕</span>`;
 
   skillsList.appendChild(skill);
   skillInput.value = "";
@@ -94,6 +94,7 @@ addEduBtn.addEventListener("click", () => {
 
   addRemoveFunctionality();
 });
+
 
 
 addRemoveFunctionality();
