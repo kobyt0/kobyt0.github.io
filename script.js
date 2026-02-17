@@ -98,3 +98,4 @@ addEduBtn.addEventListener("click", () => {
 
 
 addRemoveFunctionality();
+
